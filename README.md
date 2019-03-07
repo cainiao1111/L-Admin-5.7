@@ -18,6 +18,40 @@
 ### 资源控制器处理的动作 
 #### 我修改了资源控制器的处理动作
 #### 以 posts 为例 {post} 改为 {id} 
+#### 因为我加入了全局约束
+
+```php
+/**
+ * 定义路由模型绑定，模式过滤器等
+ *
+ * @param  \Illuminate\Routing\Router  $router
+ * @return void
+ */
+public function boot()
+{
+    Route::pattern('id', '[0-9]+');
+    parent::boot();
+}
+```
+
+```php
+//一旦模式被定义，将会自动应用到所有包含该参数名的路由中：
+Route::get('user/{id}', function ($id) {
+    // 只有当 {id} 是数字时才会被调用
+});
+
+//除此之外，该模式还会被应用到诸如下面这些路由参数上：
+
+Route::get('post/{id}', function ($id) {
+    // 只有当 {id} 是数字时才会被调用
+});
+
+Route::get('product/{id}', function ($id) {
+    // 只有当 {id} 是数字时才会被调用
+});
+
+```
+
 
 | 请求方式       | URI路径  |  控制器方法  | 路由名称 |
 | :----:    | :----:  | :----:  | :----:  |
