@@ -1,4 +1,5 @@
 ### 这是基于 laravel5.7 开发的后台管理系统
+
 ----
 
 > 服务器要求
@@ -11,6 +12,22 @@
 - PHP XML 扩展
 - PHP Ctype 扩展
 - PHP JSON 扩展
+
+> 简介
+
+###资源控制器处理的动作 
+####*我修改了资源控制器的处理动作*
+####以 posts 为例
+
+| 请求方式       | URI路径  |  控制器方法  | 路由名称 |
+| :----:    | :----:  | :----:  | :----:  |
+| GET    | /posts |  index    | posts.index |
+| GET        |   /posts_create	   |  create   | posts.create |
+| POST        |  /posts_create	  |  store  | posts.store |
+| GET    | /posts_show_{id} |   show   | posts.show |
+| GET        |   /posts_edit_{id}   |   edit   | posts.edit |
+| PUT/PATCH        |    /posts_edit_{id}  |  update  | posts.update |
+| DELETE        |    /posts/{id}  |  destroy  | posts.destroy |
 
 
 ###### 这几天还在完善...￣□￣｜｜
