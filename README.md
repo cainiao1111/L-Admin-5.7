@@ -30,7 +30,7 @@
 | PUT/PATCH        |    /posts_edit_{id}  |  update  | posts.update |
 | DELETE        |    /posts/{id}  |  destroy  | posts.destroy |
 
-#### 因为我加入了全局约束 [位置: \vendor\laravel\framework\src\Illuminate\Routing\ResourceRegistrar.php ]
+#### 因为我加入了全局约束 [位置: 忘了 ]
 
 ```php
 /**
