@@ -23,7 +23,30 @@
  - - 管理员管理
  - - 角色管理
  
+----------
+### 主要说下系统管理
 
+#### 初始账号
+
+账号:root 密码:root 超级管理员密码:root 
+
+#### Artisan 控制台
+因为本人比较懒,喜欢点一下就好 
+
+----------
+
+#### 后台路由
+因为我在路由文件中是读取数据循环出的路由,所以我觉得上线时候需要替换,写起来比较费劲,所以直接生成好,复制粘贴就行
+
+----------
+#### 系统日志
+作为一个系统,没有个日志查看怎么行呢,所以我用 *[laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer")*
+然后就是文件的增删改查我都加入了日志记录
+
+----------
+#### 文件管理
+
+我只是简单的管理了一下 public 磁盘的图片*[photoviewer](https://nzbin.github.io/photoviewer/"photoviewer")* 
 
 ----------
 
@@ -60,8 +83,5 @@ public function boot()
 ```
 
 
-###### 这几天还在完善...￣□￣｜｜
-###### 预计好的话下周一就可以了
-
-#####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer")   ... 
+#####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer") [photoviewer](https://nzbin.github.io/photoviewer/"photoviewer")  ... 
 
