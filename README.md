@@ -1,19 +1,32 @@
 ### 这是基于 laravel5.7 开发的后台管理系统
 
-----
+----------
 
 > 服务器要求
 
-- PHP >= 7.1.3
-- PHP OpenSSL 扩展
-- PHP PDO 扩展
-- PHP Mbstring 扩展
-- PHP Tokenizer 扩展
-- PHP XML 扩展
-- PHP Ctype 扩展
-- PHP JSON 扩展
-
+ - PHP >= 7.1.3
+ - PHP OpenSSL 扩展
+ - PHP PDO 扩展
+ - PHP Mbstring 扩展
+ - PHP Tokenizer 扩展
+ - PHP XML 扩展
+ - PHP Ctype 扩展
+ - PHP JSON 扩展
 > 简介
+ - 超级管理(后台管理员拥有两种)
+ - - 管理员管理
+ - - 角色管理
+ - - 权限管理
+ - - 文件管理
+ - - 系统管理
+ - 后台管理
+ - - 管理员管理
+ - - 角色管理
+ 
+
+
+----------
+
 
 ### 资源控制器处理的动作 
 #### 我修改了资源控制器的处理动作 [位置: \vendor\laravel\framework\src\Illuminate\Routing\ResourceRegistrar.php ]
@@ -51,3 +64,4 @@ public function boot()
 ###### 预计好的话下周一就可以了
 
 #####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer")   ... 
+
