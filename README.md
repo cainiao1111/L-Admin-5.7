@@ -52,7 +52,7 @@
 
 #### 富文本编辑器
 感觉还是很不错的
-[tinymce]https://www.tiny.cloud/"tinymce")
+[tinymce](https://www.tiny.cloud/"tinymce") 
 
 ----------
 #### 数据迁移
@@ -92,5 +92,5 @@ public function boot()
 ```
 
 
-#####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer") [photoviewer](https://nzbin.github.io/photoviewer/"photoviewer") [tinymce]（https://www.tiny.cloud/"tinymce") ... 
+#####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer") [photoviewer](https://nzbin.github.io/photoviewer/"photoviewer") [tinymce](https://www.tiny.cloud/"tinymce") ...
 
