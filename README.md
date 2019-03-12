@@ -50,7 +50,16 @@
 
 ----------
 
+#### 富文本编辑器
+感觉还是很不错的
+[tinymce]https://www.tiny.cloud/"tinymce")
 
+----------
+#### 数据迁移
+
+Laravel的数据迁移我没有使用，直接导出成sql 文件 [database_name.sql] 在根目录下
+
+----------
 ### 资源控制器处理的动作 
 #### 我修改了资源控制器的处理动作 [位置: \vendor\laravel\framework\src\Illuminate\Routing\ResourceRegistrar.php ]
 #### 以 posts 为例 
@@ -83,5 +92,5 @@ public function boot()
 ```
 
 
-#####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer") [photoviewer](https://nzbin.github.io/photoviewer/"photoviewer")  ... 
+#####  [Laravel 学院](https://laravelacademy.org/ "Laravel 学院") [Laravel](https://github.com/laravel/laravel "Laravel")  [Xadmin](http://x.xuebingsi.com/ "Xadmin") [Layui](https://www.layui.com "Layui")  [laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer "laravel-log-viewer") [photoviewer](https://nzbin.github.io/photoviewer/"photoviewer") [tinymce]（https://www.tiny.cloud/"tinymce") ... 
 
