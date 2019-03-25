@@ -50,14 +50,19 @@ return [
             'driver' => 'local',
             'root' => storage_path('app'),
         ],
-
+        
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'root' => storage_path('../public/storage'),
             'visibility' => 'public',
-        ],
-        'config' => [
+        ]
+//         'public' => [
+//             'driver' => 'local',
+//             'root' => storage_path('app/public'),
+//             'url' => env('APP_URL').'/storage',
+//             'visibility' => 'public',
+//         ],
+       , 'config' => [
             'driver' => 'local',
             'root' => storage_path('config'),
             'url' => env('APP_URL').'/storage',
