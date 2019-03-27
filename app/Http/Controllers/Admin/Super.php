@@ -206,6 +206,10 @@ class Super extends A
         }
         foreach($c as $vvv){
             $name = $v->e_name.'/'.$vvv->v;
+		     if($vvv->req == 'get'){
+                $name = strtr($name, '/', '_');
+            }
+
             if(isset($vvv->api)){
                 $name = 'adminapi/'.$name;
             }
