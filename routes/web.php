@@ -110,6 +110,10 @@ Route::put("adminapi/Demo/deletedatas","Demo@deletedatas")->name("Demo.deletedat
 // 		],'only'=>$only]);
 // 		foreach($c as $vvv){
 // 			$name = $v->e_name.'/'.$vvv->v;
+// 			            if($vvv->req == 'get'){
+//                 $name = strtr($name, '/', '_');
+//             }
+                 
 // 			if(isset($vvv->api)){
 // 				$name = 'adminapi/'.$name;
 // 			}
